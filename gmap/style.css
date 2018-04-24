@@ -1,0 +1,110 @@
+html,
+body {
+    height: 100%;
+}
+
+.form-signin {
+    text-align: right;
+    direction: rtl !important;
+    max-width: 140px;
+    width: 100%;
+    min-width: 90px;
+    margin: auto;
+}
+
+.mapAndForms {
+    display: flex;
+}
+
+img {
+    margin: auto;
+}
+
+body {
+    padding-top: 20px;
+}
+
+.form-control {
+    padding: 5px;
+    margin: 5px;
+}
+
+.img2 {
+    display: none;
+}
+
+.forms {
+    display: grid;
+}
+
+.datalist-polyfill {
+    list-style: none;
+    display: none;
+    background: white;
+    box-shadow: 0 2px 2px #999;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.datalist-polyfill:empty {
+    display: none !important;
+}
+
+.datalist-polyfill > li {
+    padding: 3px;
+    font: 13px "Lucida Grande", Sans-Serif;
+}
+
+.datalist-polyfill__active {
+    background: #3875d7;
+    color: white;
+}
+
+#googleMap {
+    width: 100%;
+    height: 420px;
+    border-radius: 1000px;
+    margin-top: 20px;
+}
+
+#cnfrmmsg {
+    color: green;
+    align-content: center;
+    font-family: cursive;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+@media only screen and (min-width: 600px) {
+    .img1 {
+        display: none;
+    }
+    .img2 {
+        display: block;
+        margin: auto;
+        margin-right: 30px;
+        margin-bottom: 20px;
+        height: auto;
+        width: auto;
+    }
+    .mapAndForms {
+        display: block;
+    }
+
+    .container {
+        display: flex;
+    }    #googleMap {
+        width: 80%;
+        height: 600px;
+    }
+    .input-group {
+        margin-right: 15%;
+    }
+
+}

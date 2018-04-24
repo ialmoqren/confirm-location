@@ -1,0 +1,46 @@
+body {
+    padding-top: 30px;
+}
+
+.form-signin {
+    text-align: right;
+    direction: rtl !important;
+    max-width: 200px;
+    width: 100%;
+    min-width: 90px;
+}
+
+.right-items {
+    margin: 10px;
+}
+
+.form-control {
+    padding: 5px;
+}
+
+.blc {
+    display: block;
+}
+
+.myforms {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    text-align: center;
+}
+
+img {
+    margin-bottom: 30px;
+}
+
+btn {}
+
+#cnfrmmsg {
+    color: green;
+    align-content: center;
+    font-family: cursive;
+    text-align: center;
+    margin-top: 20px;
+}
