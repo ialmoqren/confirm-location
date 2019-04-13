@@ -1,6 +1,6 @@
 # Delivery location
 
-I made this project to try using public APIs, it's a website where customers can confirm their locations to a delivery company using one on of three methods:
+I made this project to try using public APIs, it's a website where customers can pick their locations to a delivery company using one on of three methods:
 
 #### Google Maps
 The user will pin their location in the map, and the latitude and longitude will be saved in the database.
