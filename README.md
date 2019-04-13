@@ -16,13 +16,13 @@ The user will enter their Saudi National Address, and the website will validate 
 ## Demo
 
 #### Google Maps
-![](./demos/gmap.gif)
+<img src="./demos/gmap.gif" alt="drawing" width="250"/>
 
 #### what3words
-![](./demos/w3w.gif)
+<img src="./demos/w3w.gif" alt="drawing" width="250"/>
 
 #### The Saudi National Address
-![](./demos/natad.gif)
+<img src="./demos/natad.gif" alt="drawing" width="250"/>
 
 
 
@@ -40,10 +40,10 @@ You should have am up and running local mysql database with the following detail
 You should have two very simple tables in the db, this is how each of them is structured
  
 #### latlngs
-![](./readmeScreenshots/latlngsTable.png)
+<img src="./readmeScreenshots/latlngsTable.png" alt="drawing" width="150"/>
 
 #### natadd
-![](./readmeScreenshots/nataddTable.png)
+<img src="./readmeScreenshots/nataddTable.png" alt="drawing" width="150"/>
 
 ### 2. Installation & Development
 
