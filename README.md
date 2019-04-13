@@ -1,9 +1,6 @@
 # Delivery location
 
-This project is a website where customers can confirm their locations to a delivery company using one on of three methods:
-- Google Maps
-- what3words
-- The Saudi National Address
+I made this project to try using public APIs, it's a website where customers can confirm their locations to a delivery company using one on of three methods:
 
 #### Google Maps
 The user will pin their location in the map, and the latitude and longitude will be saved in the database.
@@ -13,9 +10,20 @@ Note that the country text field will auto-complete by the names of world's coun
 #### what3words
 The user will enter their what3words address, and the website will validate it and save its latitude and longitude if it's a valid address.
 
-
 #### The Saudi National Address
 The user will enter their Saudi National Address, and the website will validate it and save its info if it's a valid address.
+
+## Demo
+
+#### Google Maps
+![](./demos/gmap.gif)
+
+#### what3words
+![](./demos/w3w.gif)
+
+#### The Saudi National Address
+![](./demos/natad.gif)
+
 
 
 ## Running locally
